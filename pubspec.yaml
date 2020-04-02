@@ -1,0 +1,43 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: Tomorrow
+      fonts:
+        - asset: fonts/Tomorrow-Light.ttf
+    - family: Inconsolata
+      fonts:
+        - asset: fonts/Inconsolata-Regular.ttf
+    - family: Pompiere
+      fonts:
+        - asset: fonts/Pompiere-Regular.ttf
+    - family: Condensed
+      fonts:
+        - asset: fonts/OpenSansCondensed-Light.ttf
+        - asset: fonts/OpenSansCondensed-Bold.ttf
+    - family: SixCaps
+      fonts:
+        - asset: fonts/SixCaps-Regular.ttf
+    - family: Tulpen
+      fonts:
+        - asset: fonts/TulpenOne-Regular.ttf
